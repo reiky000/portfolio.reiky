@@ -10,6 +10,7 @@ body{
   
   color: #333;
   letter-spacing: 0.1rem;
+  line-height: 2rem;
 }
 
 li{
@@ -141,7 +142,7 @@ font-family: 'Shadows Into Light', cursive;
   font-size: 5rem;
   text-align: right;
   margin-right: 25rem;
-  margin-top: 0;
+  margin-top: 2rem;
   font-weight: 400;
 }
 /* top Wrapper */
@@ -206,6 +207,7 @@ width: 50%;
   font-weight: 300;
   font-family: 'Noto Sans JP', sans-serif;
   margin-top: 0.3rem;
+  line-height: 4rem;
  }
 
  .discription p{
@@ -213,6 +215,7 @@ width: 50%;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
   margin-bottom: 5rem;
+  line-height: 2.8rem;
  }
 /*  */
 .discription-english{
@@ -235,6 +238,7 @@ width: 50%;
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
     margin-top: 0.1rem;
+    line-height: 4rem;
    }
   
    .discription-english p{
@@ -242,6 +246,7 @@ width: 50%;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     margin-bottom: 5rem;
+    line-height: 2.8rem;
    }
    
    /*  */
@@ -479,6 +484,7 @@ width: 50%;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     letter-spacing: 0;
+    line-height: 2rem;
   } 
 
   /* Additional */
@@ -1188,6 +1194,7 @@ footer{
   align-items: center;
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #FADBC3;
+  line-height: 1.85rem;
 }
 
 .book {
@@ -1313,18 +1320,30 @@ font-size: 20px;
 .back-content h1{
   margin: 0;
   color: #000;
-  font-size: 20px;
+  font-size: 2rem;
   }
+
+  
   
   .back-content p{
     text-align: left;
     padding: 12px;
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .about-me-book-sp{
     display: none;
   }
 
+  .go-back i{
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: #000;
+  }
  
+  .go-back a{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2rem;
+  }
   
