@@ -1,4 +1,8 @@
 @media (max-width: 769px){
+  .text-box h1{
+      line-height: 4rem;
+    }
+  
   #menu{
     background-color: transparent;
     width: 35px;
